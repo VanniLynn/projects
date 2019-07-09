@@ -1,0 +1,59 @@
+/* Navbar */
+#navbar .logo {
+    float: none;
+    text-align: center;
+    padding-top: 20px;
+}
+#navbar ul, #navbar ul li {
+    float: none;
+}
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: 1px dotted #444;
+}
+/* Home info */
+#home-info {
+    height: 550px;
+}
+#home-info .info-img{
+    display: none;
+}
+#home-info .info-content {
+    float: none;
+    width: 100%;
+    height: 100%;
+}
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+/* About page */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+#about-info .info-right {
+    margin: none;
+    padding: 30px 30px;
+}
+.l-heading {
+    text-align: center;
+}
+/* Contact */
+#contact-info .box {
+    border-bottom: 1px dotted #444;
+}
+/* For Iphone 5 */
+@media(max-height: 640px) {
+    .showcase-content {
+        margin-top: -150px;
+    }
+    h1 {
+        font-size: 10px;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
