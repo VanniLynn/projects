@@ -1,0 +1,14 @@
+body {
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 30px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.distortion {
+    padding: 50px;
+    width: 400px;
+    height: 500px;
+}
